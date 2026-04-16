@@ -1,0 +1,15 @@
+# Patient data cannot be shared per the MIMIC-IV data agreement
+data/*.csv
+data/*.txt
+data/*.gz
+data/*.zip
+
+# Include the README file
+!data/README.md
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
