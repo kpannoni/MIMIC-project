@@ -5,24 +5,24 @@ An independent project using the [MIMIC-IV](https://mimic.mit.edu/) database to 
 
 ## Dataset
 
-*Source:* MIMIC-IV version 3.1 (hosp & icu datasets)
+*Source:* MIMIC-IV version 3.1 (hosp & icu datasets) <br>
 *Final Dataset:* 
 
 ### Cohort Definition
-Hospital patients with a positive culture of gram-negative bacteremia (first episode only).
+Hospital patients with a positive culture of gram-negative bacteria in the blood (first episode only).
 
-Gram-negative organisms included: 
+**Gram-negative organisms included:** 
 
 ### Main Outcome
-Multidrug resistance (binary): Organism is resistant to 3+ drug classes
+*Multidrug resistance (binary):* Organism is resistant to 3+ drug classes
 
-*Included antibiotic drug classes:*
-- beta-lactam (piperacillin-tazobactam)
-- cephalosporins
-- carbapenems
-- monobactams
-- aminoglycosides
-- fluoroquinolones
+**Included antibiotic drug classes:**
+  - beta-lactam (piperacillin-tazobactam)
+  - cephalosporins
+  - carbapenems
+  - monobactams
+  - aminoglycosides
+  - fluoroquinolones
 
 ### Key risk factors
 - time from admission to blood culture
@@ -37,7 +37,7 @@ Multidrug resistance (binary): Organism is resistant to 3+ drug classes
 ***Note:*** Raw and patient-level data cannot be shared publicly per the MIMIC-IV Data Agreement. 
 <br>This dataset was obtained with proper PhysioNet credentials. Instructions for requesting access and recreating this dataset can be found in the [data README](data/README.md).
 
-### Final Cohort Summary
+## Final Cohort Summary
 
 ## Analysis Overview
 
